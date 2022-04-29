@@ -1,0 +1,8 @@
+gui-apps/waybar network tray sndio wifi
+# required by dev-libs/libappindicator-12.10.1_p20200706::gentoo
+# required by gui-apps/waybar-0.9.9::gentoo[tray]
+# required by gui-apps/waybar (argument)
+>=dev-libs/libdbusmenu-16.04.0-r1 gtk3
+# required by app-shells/zsh-theme-powerlevel10k-1.16.1::gentoo-zh
+# required by app-shells/zsh-theme-powerlevel10k (argument)
+>=app-shells/gitstatus-1.5.4 zsh-completion
