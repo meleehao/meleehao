@@ -1,0 +1,9 @@
+app-editors/vim -X -minimal
+# required by app-shells/fish-3.4.1::gentoo
+# required by fish (argument)
+>=dev-libs/libpcre2-10.40 pcre32
+# required by gui-wm/sway-1.7::gentoo[wallpapers]
+# required by gui-wm/sway (argument)
+>=x11-libs/gdk-pixbuf-2.42.8 jpeg
+# required by sys-auth/polkit-0.120_p20220221::gentoo[systemd]
+>=sys-apps/systemd-250.4-r1 policykit
