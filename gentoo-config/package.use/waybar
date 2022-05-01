@@ -196,3 +196,6 @@ gui-apps/waybar network tray sndio wifi
 # required by perl-core/CPAN-2.290.0-r1::gentoo
 # required by virtual/perl-CPAN-2.290.0::gentoo
 >=dev-python/jaraco-functools-3.5.0-r2 python_targets_python3_9
+# required by media-sound/pulseaudio-daemon-15.99.1-r2::gentoo
+# required by media-sound/pulseaudio-daemon (argument)
+>=media-libs/libpulse-15.99.1-r1 dbus
